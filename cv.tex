@@ -1,0 +1,95 @@
+% template author: Cole Miller
+% https://www.overleaf.com/latex/templates/coles-resume-template/qhpynjcvjpcj
+
+% Document class and font size
+\documentclass[letterpaper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{letterpaper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+%\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large ETHAN CHENG}\\[2pt]
+	\href{mailto:ethanrc0528@gmail.com}{ethanrc0528@gmail.com} | (626) 456-2598 | \href{https://www.linkedin.com/in/ethan-cheng-baa662223}{linkedin.com/in/ethan-cheng-baa662223} | \href{http://www.yadayadajaychan.org/about/}{yadayadajaychan.org/about}
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{University of California, Los Angeles} \hfill September 2023 | Expected: May 2025\\
+B.S. Electrical Engineering \hfill Overall GPA: X.XX | Major GPA X.XX\\ % TODO GPA
+
+\noindent
+\textbf{Skyline College}, San Mateo, CA \hfill August 2022 | May 2023
+
+% Experience Section
+\section*{EXPERIENCE}
+\noindent
+\textbf{A+ Tax and Accounting} \hfill Daly City, CA\\ % Company name and location
+\textit{Accountant Assistant} \hfill Month Year - Month Year % Position and duration
+\begin{itemize}
+	\item Did client's taxes
+\end{itemize}
+
+%% Additional Experience or Volunteer Work
+%\noindent
+%\textbf{Project or Volunteer Work Name} \hfill City, State\\ % Project or organization name and location
+%\textit{Position Title, Volunteer} \hfill Month Year – Month Year % Position and duration
+%\begin{itemize}
+%	\item Description of responsibilities and achievements at this position. % Responsibilities and achievements
+%\end{itemize}
+%
+%% Club or Organization Experience
+%\textbf{Club or Organization Name} \hfill City, State\\ % Club or organization name and location
+%\textit{Position Title} \hfill Month Year – Ongoing % Position and duration
+%\begin{itemize}
+%	\item Description of responsibilities and achievements at this position. % Responsibilities and achievements
+%\end{itemize}
+
+% Projects Section
+\section*{PROJECTS}
+\noindent
+\textbf{Solar Boat} \hfill San Mateo, CA\\ % Project name and location
+Engineering and Robotics Club at Skyline College \hfill August 2022 | May 2023 % Project link and duration
+\begin{itemize}
+	\item Worked on a team to implement controls for the boat
+	\item Understood constraints of hardware
+	\item Read datasheets
+	\item solar regatta
+\end{itemize}
+
+% Additional Project
+\noindent
+\textbf{Path-following Car} \hfill City, State\\ % Project name and location
+\textit{Project Link:} \url{https://www.projectwebsite.com/} \hfill Month Year % Project link and duration
+\begin{itemize}
+	\item Utilized PID control
+\end{itemize}
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+	\item \textbf{Relevant Coursework:} List of relevant courses you have taken. % Relevant coursework
+	\item \textbf{Programming:} List of programming languages you are proficient in. % Programming skills
+	\item \textbf{Software:} List of software you are proficient in. % Software skills
+	\item \textbf{Communication:} List of communication skills you possess. % Communication skills
+\end{itemize}
+
+% End document
+\end{document}
